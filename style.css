@@ -16,33 +16,38 @@
   justify-content: center;
   align-items: center;
 }
+.logo a{
+  text-decoration: none;
+  color: #ffffff;
 
-.wraper {
-  display: flex;
-  width: 800px;
-  height: 80px;
-  padding: 15px;
-  padding: 30px;
-  font-size: 20px;
-  align-items: center;
 }
 
-.brand{
-  display: flex;
-  flex-direction: row;
-  padding: 15px;
+.barnav nav{
+  position: absolute;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  height: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
-.logo{
-  color: black;
-  font-weight: 700;
+.barnav nav ul {
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  margin-left: 140px;
+
 }
 
-.logo2{
+.barnav nav ul li {
+  list-style: none;
+  display: inline-block;
    color:tomato;
-   font-weight: 50px;
-   padding-left: 4px;
+   padding: 15px 15px;
 }
+
+
+
 
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -58,7 +63,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: rgb(231, 27, 27);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -85,7 +90,7 @@
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
-}
+} */
 
 .nav-wrapper{
   display: flex;;
@@ -96,24 +101,6 @@
   box-shadow: 5px;
   background-color: #797979;
 }
-
-.gmbr{
-  align-items: center;
-}
-
-
-.isian{
-  display: flex;
-  flex-direction: row;
-  text-align: left;
-
-}
-
-.isian li{
-  padding: 10px
-}
-
-
 /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
 @media screen and (max-width: 600px) {
   .topnav a, .topnav input[type=text] {
@@ -131,8 +118,8 @@
 
 .namehead{
   background-color: whitesmoke;
-  padding: 20px;
-  margin: 25px;
+  padding: 15px;
+  margin: 2px 15px 15px 15px;
 
 }
 
@@ -219,12 +206,12 @@ body {
 }
 
 #tranding {
-  padding: 4rem 0;
+  padding: 1% 0;
 }
 
 @media (max-width:1440px) {
   #tranding {
-    padding: 7rem 0;
+    padding: 1rem 0;
   }
 }
 
@@ -248,11 +235,11 @@ body {
 
 @media (max-width:500px) {
   .tranding-slide {
-    width: 28rem !important;
+    width: 10rem !important;
     height: 36rem !important;
   }
   .tranding-slide .tranding-slide-img img {
-    width: 28rem !important;
+    width: 50rem !important;
     height: 36rem !important;
   }
 }
@@ -260,7 +247,7 @@ body {
 .tranding-slide .tranding-slide-img img {
   width: 37rem;
   height: 42rem;
-  border-radius: 20rem;
+  border-radius: 2rem;
   object-fit: cover;
 }
 
@@ -271,8 +258,6 @@ body {
   right: 0;
   bottom: 0;
 }
-
-
 
 .swiper-slide-shadow-left,
 .swiper-slide-shadow-right {

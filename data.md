@@ -41,7 +41,7 @@ html {
 
 @media (min-width: 1440px) {
   html {
-    zoom: 1.5;
+    zoom: 2.0;
   }
 }
 
