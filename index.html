@@ -8,122 +8,212 @@
   <title>Resto Hanung</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
 
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css">
-
 </head>
 
+<style>
+  .navbar-brand {
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  .dropdown-menu {
+    font-size: 18px;
+  }
+
+  .form {
+    position: relative;
+    padding-left: 100px;
+    left: -8px;
+    color: #fafafa;
+    margin: 5px;
+
+  }
+</style>
+
 <body>
-      
-  <nav>
-    <div class="nav-wrapper">\
-      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-      <img class="gmbr" src="assets/logo.png" alt="" width="90" height="80">
-      <ul id="nav-mobile" class="isian">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
+  <!-- star navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid p-2">
+      <a class="navbar-brand" href="#">HANUNG FOOD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              MENU
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#nonlaut">Makanan Non-laut</a></li>
+              <li><a class="dropdown-item" href="#">Makanan Laut</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#mimik">Minuman</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                SERVICE
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">kasir</a></li>
+                <li><a class="dropdown-item" href="#">Pesanan</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Manager</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-sucess me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success " type="submit">Search</button>
+          </form>
+        </div>
+      </div>
   </nav>
-
-
-
+<!-- end navbar -->
 
   <div class="namehead">
-    <div class="bnvbar">Halo Hanung</div>
-    <div class="cnavbar">Mau Maakan Apa hari ini ?</div>
+    <div class="bnvbar">Halo Hanung
+    </div>
+    <div class="cnavbar">Mau Makan Apa hari ini ?
+    </div>
   </div>
-  <div>
-
-    <section id="tranding">
-      <div class="container">
-      </div>
-      <div class="container">
-        <div class="swiper tranding-slider">
-          <div class="swiper-wrapper">
-            <!-- Slide-start -->
-
-
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="images/tranding-food-5.png" alt="Tranding">
-              </div>
-            </div>
-
-
-            <!-- Slide-end -->
-
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="assets/kathirol.jpg" alt="Tranding">
-              </div>
-            </div>
-            <!-- Slide-end -->
-
-
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="assets/biryani.jpg" alt="Tranding">
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="assets/bukhari.jpg" alt="Tranding">
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="assets/Hallomoui Grilled.jpg" alt="Tranding">
-              </div>
-            </div>
-            <!-- Slide-end -->
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="assets/halomin.webp" alt="Tranding">
-              </div>
-            </div>
-            <!-- Slide-end -->
-
-            <!-- Slide-start -->
-            <div class="swiper-slide tranding-slide">
-              <div class="tranding-slide-img">
-                <img src="assets/kabsah 1.jpg" alt="Tranding">
-              </div>
+  <section id="tranding">
+    <div class="container">
+    </div>
+    <div class="container">
+      <div class="swiper tranding-slider">
+        <div class="swiper-wrapper">
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide ">
+            <div class="tranding-slide-img">
+              <img src="images/tranding-food-5.png" alt="Tranding">
             </div>
           </div>
           <!-- Slide-end -->
 
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="assets/kathirol.jpg" alt="Tranding">
+            </div>
+          </div>
+          <!-- Slide-end -->
 
-          <div class="tranding-slider-control">
-            <div class="swiper-button-prev slider-arrow">
-              <ion-icon name="arrow-back-outline"></ion-icon>
+          <!-- Slide-start -->
+          <div class="swiper-slide tranding-slide">
+            <div class="tranding-slide-img">
+              <img src="assets/biryani.jpg" alt="Tranding">
             </div>
-            <div class="swiper-button-next slider-arrow">
-              <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <!-- Slide-end -->
+        </div>
+        <div class="tranding-slider-control">
+          <div class="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div class="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- star box menu -->
+  <section id="nonlaut" class="p-5">
+    <div class="wcontainer">
+      <div class="row  text-center g-4">
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/Hallomoui Grilled.jpg" alt="" width="100px">
+              <h3 class="card-titile mb-3">halomoni</h3>
+              <p class="card-text">
+                Lorem ipsum
+                dolor sit amet consectetur adipisicing elit.
+                Dignissimos veniam voluptatem, porro doloremque, quibusdam corporis reprehenderit nesciunt, ab dolorem
+                consequatur cupiditate deleniti illum vitae aperiam pariatur enim aliquam sit explicabo?
+              </p>
+              <img class="img-light" src="assets/keranjang.png" alt="" width="20" height="20">
             </div>
-            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/Hallomoui Grilled.jpg" alt="" width="100px">
+              <h3 class="card-titile mb-3">halomoni</h3>
+              <p class="card-text">
+                Lorem ipsum
+                dolor sit amet consectetur adipisicing elit.
+                Dignissimos veniam voluptatem, porro doloremque, quibusdam corporis reprehenderit nesciunt, ab dolorem
+                consequatur cupiditate deleniti illum vitae aperiam pariatur enim aliquam sit explicabo?
+              </p>
+              <img class="img-light" src="assets/keranjang.png" alt="" width="20" height="20">
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/Hallomoui Grilled.jpg" alt="" width="100px">
+              <h3 class="card-titile mb-3">halomoni</h3>
+              <p class="card-text">
+                Lorem ipsum
+                dolor sit amet consectetur adipisicing elit.
+                Dignissimos veniam voluptatem, porro doloremque, quibusdam corporis reprehenderit nesciunt, ab dolorem
+                consequatur cupiditate deleniti illum vitae aperiam pariatur enim aliquam sit explicabo?
+              </p>
+              <img class="img-light" src="assets/keranjang.png" alt="" width="20" height="20">
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/Hallomoui Grilled.jpg" alt="" width="100px">
+              <h3 class="card-titile mb-3">halomoni</h3>
+              <p class="card-text ">
+                Lorem ipsum
+                dolor sit amet consectetur adipisicing elit.
+                Dignissimos veniam voluptatem, porro doloremque, quibusdam corporis reprehenderit nesciunt, ab dolorem
+                consequatur cupiditate deleniti illum vitae aperiam pariatur enim aliquam sit explicabo?
+              </p>
+              <img class="img-light p" src="assets/keranjang.png" alt="" width="20" height="20">
+            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- end box menu -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
