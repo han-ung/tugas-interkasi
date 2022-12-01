@@ -12,7 +12,7 @@
         margin: 0;
         padding: 0;
         font-family: 'Lora', serif;
-        background-color: #FFFFFF;
+        background-color: #E0E4CC;
     }
 
     .barnav {
@@ -23,45 +23,105 @@
         align-items: center;
         padding: 10px 10px 10px 10px;
     }
-.container{
-    margin: 0% 2% 10% 2%;
-}
-.title-up{
-    margin: 5px 20% 10px 0%;
-    
-}
-.wraper{
 
-}
-.text-one{
-    /* background-color: turquoise; */
-    display: flex;
-    flex-direction: row;
-    margin: 2% 70% 1% 5%;
-    justify-content: space-between;
-}
-.text-two{
-    display: flex;
-    flex-direction: row;
-    margin: 2% 70% 1% 5%;
-    justify-content: space-between;
-}
-.text-tre{
-    display: flex;
-    flex-direction: row;
-    margin: 2% 70% 1% 5%;
-    justify-content: space-between;
-}
-.box-nav{
-    background-color: #9b958b;
-    padding: 10px 20px 10px 20px;
-    margin: 0px 15% 0px 15%;
-}
-.title-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .container {
+        margin: 0% 2% 2% 2%;
+    }
+
+    .title-up {
+        margin: 2% 20% 10px 0%;
+
+    }
+
+    .box-wriper {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .wraper {}
+
+    .text-one {
+        /* background-color: turquoise; */
+        display: flex;
+        flex-direction: row;
+        margin: 2% 70% 1% 5%;
+        justify-content: space-between;
+    }
+
+    .text-two {
+        display: flex;
+        flex-direction: row;
+        margin: 2% 70% 1% 5%;
+        justify-content: space-between;
+    }
+
+    .text-tre {
+        display: flex;
+        flex-direction: row;
+        margin: 2% 70% 0% 5%;
+        justify-content: space-between;
+    }
+
+    .box-nav {
+        background-color: #9b958b;
+        padding: 10px 20px 10px 20px;
+        margin: 0px 15% 0px 15%;
+    }
+
+    .title-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .bag-service {
+        padding: 10px 20px 2% 20px;
+        margin: 0px 15% 0px 15%;
+        background-color: #d6cfc2;
+    }
+
+    .menu-one {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+
+    .menu-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 3%
+    }
+
+    .bag-total {
+        background-color: whitesmoke;
+        margin: 0px 15% 0px 15%;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    .tot-bayar {
+        margin-left: 5%;
+
+    }
+
+    .tot-semua {
+        margin-left: 73%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .box-byr{
+        background-color: #21741F;
+        padding: 10px 9%;
+        margin: 20px 15% 0px 15%;
+        float: right;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    hr{
+        background-color: #21741F;
+    }
 </style>
 
 <body>
@@ -73,33 +133,59 @@
         </div>
     </div>
     <div class="container">
-<div class="title-up">TAGIHAN PEMBAYARAN</div>
-<div class="wraper">
-    <div class="text-one">
-        <a>Kode Pesanan</a>
-        <a>:</a>
-        <a>GTR41022</a>
+        <div class="title-up">TAGIHAN PEMBAYARAN</div>
+        <hr>
+        <div class="box-wriper">
+            <div class="wraper">
+                <div class="text-one">
+                    <a>Kode Pesanan</a>
+                    <a>:</a>
+                    <a>GTR41022</a>
+                </div>
+                <div class="text-two">
+                    <a>No Meja</a>
+                    <a>:</a>
+                    <a>4</a>
+                </div>
+                <div class="text-tre">
+                    <a>Nama Pemesan</a>
+                    <a>:</a>
+                    <a>Hanung</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="text-two">
-        <a>No Meja</a>
-        <a>:</a>
-        <a>4</a>
+    <div class="box-nav">
+        <div class="title-nav">
+            <a>Nama menu</a>
+            <a>Harga</a>
+            <a>Diskon</a>
+            <a>Subtotal</a>
+        </div>
     </div>
-    <div class="text-tre">
-        <a>Nama Pemesan</a>
-        <a>:</a>
-        <a>Hanung</a>
+    <div class="bag-service">
+        <div class="menu-one">
+            <a>Nasi kabsah Kambing</a>
+            <a>Rp.60.000</a>
+            <a>0</a>
+            <a>Rp.180.000</a>
+        </div>
+        <div class="menu-two">
+            <a>Lemont & mint</a>
+            <a>Rp.48.000</a>
+            <a>0</a>
+            <a>Rp.144.000</a>
+        </div>
     </div>
-</div>
-</div>
-<div class="box-nav">
-<div class="title-nav">
-    <a>Nama menu</a>
-    <a>Harga</a>
-    <a>Diskon</a>
-    <a>Subtotal</a>
-</div>
-</div>
+    <div class="bag-total">
+        <div class="tot-bayar">Total Bayar</div>
+        <div class="tot-semua">Rp.324.000</div>
+    </div>
+    <div class="box-byr">
+        <div class="text-byr">
+            BAYAR
+        </div>
+    </div>
 </body>
 
 </html>
